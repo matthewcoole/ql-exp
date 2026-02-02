@@ -1,0 +1,14 @@
+---
+title: "Quarto Live Example"
+format: live-html
+pyodide:
+    packages:
+        https://pypi.anaconda.org/pyodide/simple/zarr/2.18.3/zarr-2.18.3-py3-none-any.whl
+---
+
+This page demonstrates how to use Quarto Live
+
+```{pyodide}
+import zarr
+zarr.__version__
+```
