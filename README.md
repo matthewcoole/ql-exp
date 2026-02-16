@@ -8,17 +8,26 @@ A Quarto website project for FDRI gridded data workshops.
 
 ## Quick Start
 
-1. **Sync dependencies with uv:**
-   ```bash
-   uv sync
-   ```
-
+1. Sync dependencies with uv:
+    ```bash
+    uv sync
+    ```
 2. Add the quarto-live extension:
-  ```bash
-  uv add quarto add r-wasm/quarto-live
-   ```
+    ```bash
+    uv add quarto add r-wasm/quarto-live
+    ```
+3. Preview the Quarto site:
+    ```bash
+    uv add quarto preview
+    ```
 
-3. **Preview the Quarto site:**
-   ```bash
-   uv add quarto preview
-   ```
+## Publish
+1. Render the website:
+    ```bash
+    uv run quarto render
+    ```
+2. Add and push the `/docs` folder to github:
+    ```bash
+    git add docs/
+    git push
+    ```

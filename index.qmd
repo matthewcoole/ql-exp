@@ -2,6 +2,4 @@
 title: "FDRI Gridded Data"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Examples of how to use quarto for viewing and launching various notebooks.
