@@ -14,20 +14,26 @@ A Quarto website project for FDRI gridded data workshops.
     ```
 2. Add the quarto-live extension:
     ```bash
-    uv add quarto add r-wasm/quarto-live
+    quarto add r-wasm/quarto-live
     ```
 3. Preview the Quarto site:
     ```bash
-    uv add quarto preview
+    quarto preview
     ```
 
 ## Publish
 1. Render the website:
     ```bash
-    uv run quarto render
+    quarto render
     ```
 2. Add and push the `/docs` folder to github:
     ```bash
     git add docs/
     git push
     ```
+
+## Import a python notebook `*.ipynb`
+Python notebooks (`.ipynb`) can be imported and converted to quarto (`.qmd`) using the following command:
+```bash
+quarto convert
+```
